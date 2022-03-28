@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: StatusBar.currentHeight,
     backgroundColor: 'yellow',
-    
   },
 });
 
