@@ -10,11 +10,12 @@ import React from 'react';
 import Header from './components/Header';
 import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
 import MemeContainer from './components/MemeContainer';
+import colors from './config/colors';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      {/*<Header title="Memeland" />*/}
+      <Header title="memo" />
       <MemeContainer />
     </SafeAreaView>
   );
@@ -23,7 +24,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     paddingTop: StatusBar.currentHeight,
-    backgroundColor: 'yellow',
+    backgroundColor: colors.primary,
   },
 });
 

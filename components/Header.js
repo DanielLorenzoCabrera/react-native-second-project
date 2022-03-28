@@ -20,9 +20,9 @@ const styles = StyleSheet.create({
   textHeader: {
     textAlign: 'center',
     fontSize: 30,
-    fontWeight: 'bold',
     textTransform: 'uppercase',
-    color: colors.base_color,
+    color: colors.secondary,
+    fontFamily: 'Avenir-Roman'
   },
 });
 
