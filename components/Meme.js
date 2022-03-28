@@ -40,10 +40,10 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   font: {
-    color: colors.base_color,
-    fontSize: 30,
     textAlign: 'center',
-    fontWeight: 'bold',
+    fontSize: 30,
+    color: colors.base_color,
+    fontFamily: 'Avenir-Roman'
   },
 });
 

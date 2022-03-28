@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, FlatList, View} from 'react-native';
 import axios from 'axios';
 import Meme from './Meme';
+import ActionBar from './ActionBar';
 
 class MemeContainer extends Component {
   state = {
