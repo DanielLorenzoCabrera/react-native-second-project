@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		710D118627F23AC00017A65D /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 710D118527F23AC00017A65D /* fonts */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AD66F0F7131B5B97ED102C2F /* libPods-secondPractice-secondPracticeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B35F9017837F9AA875F8BAB2 /* libPods-secondPractice-secondPracticeTests.a */; };
 		B1CB3129E65CBA5274B390D4 /* libPods-secondPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF684EB4120136938CE4FB8 /* libPods-secondPractice.a */; };
@@ -41,6 +42,7 @@
 		4CFECB6512BFC5F77304D730 /* Pods-secondPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondPractice.release.xcconfig"; path = "Target Support Files/Pods-secondPractice/Pods-secondPractice.release.xcconfig"; sourceTree = "<group>"; };
 		4D3F9B6C2066FDE16ABF6523 /* Pods-secondPractice-secondPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondPractice-secondPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-secondPractice-secondPracticeTests/Pods-secondPractice-secondPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FF684EB4120136938CE4FB8 /* libPods-secondPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-secondPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D118527F23AC00017A65D /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = secondPractice/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B35F9017837F9AA875F8BAB2 /* libPods-secondPractice-secondPracticeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-secondPractice-secondPracticeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -114,7 +116,6 @@
 				4D3F9B6C2066FDE16ABF6523 /* Pods-secondPractice-secondPracticeTests.debug.xcconfig */,
 				04DA221722AB62EE76BD6E67 /* Pods-secondPractice-secondPracticeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +129,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				710D118527F23AC00017A65D /* fonts */,
 				13B07FAE1A68108700A75B9A /* secondPractice */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* secondPracticeTests */,
@@ -243,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710D118627F23AC00017A65D /* fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
