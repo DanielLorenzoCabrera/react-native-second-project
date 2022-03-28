@@ -8,16 +8,24 @@
 
 import React from 'react';
 import Header from './components/Header';
-import {Text, SafeAreaView} from 'react-native';
-import AlbumContainer from './components/AlbumContainer';
+import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
+import MemeContainer from './components/MemeContainer';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Header title="Your albums" />
-      <AlbumContainer />
+    <SafeAreaView style={styles.container}>
+      {/*<Header title="Memeland" />*/}
+      <MemeContainer />
     </SafeAreaView>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: StatusBar.currentHeight,
+    backgroundColor: 'yellow',
+    
+  },
+});
 
 export default App;
