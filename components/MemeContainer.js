@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, FlatList, SafeAreaView, View, Text} from 'react-native';
+import {StyleSheet, FlatList, View} from 'react-native';
 import axios from 'axios';
 import Meme from './Meme';
 
@@ -33,6 +33,7 @@ class MemeContainer extends Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: 'black',
+    paddingBottom: 30,
   },
   contentContainer: {
     backgroundColor: 'blue',

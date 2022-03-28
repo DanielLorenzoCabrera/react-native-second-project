@@ -14,7 +14,7 @@ import MemeContainer from './components/MemeContainer';
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      {/*<Header title="Memeland" />*/}
+      <Header title="Meme templates" />
       <MemeContainer />
     </SafeAreaView>
   );
